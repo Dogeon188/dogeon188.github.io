@@ -1,3 +1,6 @@
+---
+title: Homepage | Dogeon's Minecraft World
+---
 # Dogeon's Nest
 
 [Videos](./videos/)
