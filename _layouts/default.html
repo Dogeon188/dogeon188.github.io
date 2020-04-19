@@ -58,5 +58,9 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
+    <!-- Custom JavaScript files set in YAML front matter -->
+    {% for js in page.customjs %}
+    <script type="text/javascript" src="{{ js }}"></script>
+    {% endfor %}
   </body>
 </html>
