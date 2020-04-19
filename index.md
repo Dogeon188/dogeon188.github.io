@@ -1,4 +1,4 @@
-# Dogeon's Blog
+# Dogeon's Nest
 
 [Home](https://dogeon188.github.io)
 
