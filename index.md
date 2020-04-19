@@ -1,5 +1,5 @@
 ---
-title: Homepage | Dogeon's Minecraft World
+title: Homepage
 ---
 # Dogeon's Nest
 
