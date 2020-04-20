@@ -19,6 +19,8 @@ for (vid of vlist) {
   var thsrc = "https://img.youtube.com/vi/{0}/mqdefault.jpg".f(vid);
   var vlink = "https://youtu.be/{0}".f(vid);
   vth.setAttribute("src", thsrc);
+  vth.setAttribute("margin", 2);
+  vth.setAttribute("width", "50%");
   var va = document.createElement("A");
   va.setAttribute("href", vlink);
   va.appendChild(vth);
