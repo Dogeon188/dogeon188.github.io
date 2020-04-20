@@ -17,7 +17,7 @@ var videos = document.getElementById("videos");
 for (vid of vlist) {
   var vth = document.createElement("IMG");
   var thsrc = "https://img.youtube.com/vi/{0}/mqdefault.jpg".f(vid);
-  var vlink = "youtu.be/{0}";
+  var vlink = "youtu.be/{0}".f(vid);
   vth.setAttribute("src", thsrc);
   var va = document.createElement("A");
   va.setAttribute("href", vlink);
