@@ -11,7 +11,7 @@ for (vid of vlist) {
   var vlink = "https://youtu.be/{0}".f(vid);
   vth.setAttribute("src", thsrc);
   vth.setAttribute("margin", 2);
-  vth.setAttribute("width", "40%");
+  vth.setAttribute("width", "calc(50% - 4px)");
   var va = document.createElement("A");
   va.setAttribute("href", vlink);
   va.appendChild(vth);
