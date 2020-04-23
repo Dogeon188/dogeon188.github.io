@@ -1,6 +1,6 @@
 ---
 title: Videos
-permalink: /yt/
+permalink: /yt/playlists/
 customjs:
  - ./playlists.js
 ---
