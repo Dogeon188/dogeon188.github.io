@@ -1,4 +1,5 @@
 ---
+title: Videos
 customjs:
  - ./videos.js
 ---
