@@ -10,7 +10,7 @@ Here I may post something like my personal blog, and also some of my work (downl
 I'll try my best to make the place looks good.
 
 ## My Videos
-[view more\!](./videos/)
+[view more](./videos/)
 
 ## Social Media
 
