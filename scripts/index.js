@@ -28,6 +28,7 @@ for (t of JSON.parse(g("https://www.googleapis.com/youtube/v3/playlists?part=sni
 for (t of JSON.parse(g("https://www.googleapis.com/youtube/v3/search?key=AIzaSyBbBboaavWuf5jiImHewI6vrXeJuHpdYCs&channelId=UCapFOd5gDDMNszKmVPKo9JQ&part=snippet,id&order=date&maxResults=3")).items) {
   a = document.createElement("A");
   a.setAttribute("href", t.id.videoId);
+  a.setAttribute("title", t.snippet.title);
   i = document.createElement("IMG");
   i.setAttribute("src", t.snippet.thumbnails.medium.url)
   a.appendChild(i);
