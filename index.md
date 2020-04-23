@@ -6,7 +6,8 @@ title: Homepage
 **********************
 
 Hi there, welcome to my website\!  
-Here I may post something like my personal blog, and also some of my work (downloadable\!). I'll try my best to make the place looks good.
+Here I may post something like my personal blog, and also some of my work (downloadable\!).  
+I'll try my best to make the place looks good.
 
 [My Videos](./videos/)
 
