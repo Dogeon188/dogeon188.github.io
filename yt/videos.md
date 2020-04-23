@@ -1,6 +1,6 @@
 ---
 title: Videos
-permalink: /yt/
+permalink: /yt/videos/
 customjs:
  - ./videos.js
 ---
