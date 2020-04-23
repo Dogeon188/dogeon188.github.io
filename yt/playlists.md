@@ -2,7 +2,7 @@
 title: Videos
 permalink: /yt/playlists/
 customjs:
- - ./playlists.js
+ - /scripts/yt/plists.js
 ---
 
 # My Playlists
