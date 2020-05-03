@@ -13,7 +13,7 @@ I'll try my best to make the place looks good.
 
 ## Recent Videos
 <div id="vids"></div>
-[view more](/yt/videos/ "All of My Videos (Probably)") "All of My Videos (Probably)"
+[view more](/yt/videos/ "All of My Videos (Probably)")
 
 ## Social Media
 
