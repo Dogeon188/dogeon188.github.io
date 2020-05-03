@@ -14,7 +14,9 @@ I'll try my best to make the place looks good.
 ## Recent Videos
 <div id="vids"></div>
 <a href="/yt/videos/" title="All of My Videos (Probably)">
+  
 <div class="button";>View More</div>
+
 </a>
 
 ## Social Media
