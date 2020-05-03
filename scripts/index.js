@@ -13,7 +13,7 @@ function G(u) {
   return r.responseText;
 }
 
-var d = document.getElementById("videos");
+var d = document.getElementById("vids");
 var j = JSON.parse(G(l)).feed.entry;
 var c = 0;
 
