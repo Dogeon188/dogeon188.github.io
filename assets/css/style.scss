@@ -3,7 +3,9 @@
 
 @import "{{ site.theme }}";
 a:hover {
-  text-decoration: none; opacity: 0.8;
+  text-decoration: none;
+  opacity: 0.8;
+  transition-duration: 0.5s;
 }
 #project_title:hover {
   opacity: 0.8;
