@@ -12,7 +12,9 @@ Here I may post something like my personal blog, and also some of my work (downl
 I'll try my best to make the place looks good.
 
 ## Recent Videos
+
 <div id="vids"></div>
+
 <a href="/yt/videos/" title="All of My Videos (Probably)">
 <span class="button";>View More</span>
 </a>
