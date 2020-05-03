@@ -17,7 +17,7 @@ I'll try my best to make the place looks good.
 
 
 <a href="/yt/videos/" title="All of my videos (probably)">
-  <div class="button">View More</div>
+  <button class="button">View More</button>
 </a>
 
 ## Social Media
