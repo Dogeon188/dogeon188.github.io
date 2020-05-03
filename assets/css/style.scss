@@ -9,5 +9,15 @@ a:hover {
   opacity: 0.8;
 }
 .video-thumbnail {
-	margin: 2px; width: calc(50% - 16px);
+  margin: 2px; width: calc(50% - 16px);
+}
+.button {
+  width: calc(100% - 16px);
+  background-color: #18a0fb;
+  color: #eeefef;
+  font-size: larger;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 5px;
+  padding: 6px;
 }
