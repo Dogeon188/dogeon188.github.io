@@ -18,7 +18,7 @@ var j = JSON.parse(G(l)).feed.entry;
 var c = 0;
 
 for (o of j) {
-  if (c >= 3) {break;}
+  if (c >= 4) {break;}
   i = o.gs$cell.$t;
   if (i.slice(0,2) == "//") {continue; }
   t = document.createElement("IMG");
