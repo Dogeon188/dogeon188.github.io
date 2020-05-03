@@ -15,9 +15,7 @@ I'll try my best to make the place looks good.
 
 <div id="vids"></div>
 
-<a href="/yt/videos/" title="All of My Videos (Probably)">
-<span class="button";>View More</span>
-</a>
+<a href="/yt/videos/" title="All of My Videos (Probably)"><span class="button";>View More</span></a>
 
 ## Social Media
 
