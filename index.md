@@ -13,7 +13,10 @@ I'll try my best to make the place look good.
 
 ## Recent Videos
 
-<div id="vids"></div>
+<div id="vids">
+Oops, there seems to be some problem loading the videos :( <br>
+Try refresh the page and see if it works OWO
+</div>
 
 
 <a href="/yt/videos/" title="All of my videos (probably)">
