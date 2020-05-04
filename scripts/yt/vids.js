@@ -14,6 +14,7 @@ function G(u) {
 }
 
 var d = document.getElementById("videos");
+d.innerHTML = "";
 var j = JSON.parse(G(l)).feed.entry;
 
 for (o of j) {
