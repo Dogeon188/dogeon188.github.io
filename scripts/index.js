@@ -16,6 +16,7 @@ function G(u) {
 var d = document.getElementById("vids");
 var j = JSON.parse(G(l)).feed.entry;
 var c = 0;
+d.innerHTML = "";
 
 for (o of j) {
   if (c >= 4) {break;}
