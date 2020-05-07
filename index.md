@@ -8,7 +8,7 @@ customjs:
 **********************
 
 Hi there, welcome to my website\!  
-Here I may post something like my personal blog, and also some of my work (downloadable\!).  
+Here I may post something like my personal blog, and also some of my work.  
 I'll try my best to make the place look good.
 
 ## Recent Videos
