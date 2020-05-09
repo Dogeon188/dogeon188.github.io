@@ -2,7 +2,7 @@
 customjs:
 - /scripts/blog.js
 ---
-# Blogs
+# Blogs & Works
 
 Here will be a full list of my blog posts (probably).
 
