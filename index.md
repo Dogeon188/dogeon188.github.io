@@ -35,6 +35,12 @@ Try refresh the page and see if it works OWO
 [dc]: https://discord.gg/ZNYMdKK "My Discord Server"
 [pmc]: https://www.planetminecraft.com/member/dogeon188/ "Planet Minecraft"
 
+## Blog Posts
+
+<a href="/blog/" title="All of my videos (probably)">
+  <button class="button">View More</button>
+</a>
+
 ## Developement Stuffs
 
 [View on GitHub](https://github.com/Dogeon188/dogeon188.github.io)  
