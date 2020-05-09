@@ -31,26 +31,3 @@ for (o of j) {
   d.appendChild(a);
   c += 1;
 }
-
-// function g(u) {
-//   var r = new XMLHttpRequest();
-//   r.open("GET", u, false);
-//   r.send(null);
-//   return r.responseText;
-// }
-
-// String.prototype.f = function() {
-//   var s = this, i = arguments.length;
-//   while (i--) {s = s.replace(new RegExp('\\{' + i + '\\}', 'gm'), arguments[i]);}
-//   return s;
-// };
-
-// for (t of JSON.parse(g("https://www.googleapis.com/youtube/v3/search?key=AIzaSyBbBboaavWuf5jiImHewI6vrXeJuHpdYCs&channelId=UCapFOd5gDDMNszKmVPKo9JQ&part=snippet,id&order=date&maxResults=3")).items) {
-//   a = document.createElement("A");
-//   a.setAttribute("href", t.id.videoId);
-//   a.setAttribute("title", t.snippet.title);
-//   i = document.createElement("IMG");
-//   i.setAttribute("src", t.snippet.thumbnails.medium.url)
-//   a.appendChild(i);
-//   document.getElementById("vids").appendChild(a);
-// }
