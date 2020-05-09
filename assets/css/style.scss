@@ -2,6 +2,10 @@
 ---
 
 @import "{{ site.theme }}";
+#header-wrap {
+  background-image: url(https://i.imgur.com/cUKJuEH.jpg);
+  background-size: contain;
+}
 a:hover {
   text-decoration: none;
   opacity: 0.8;
