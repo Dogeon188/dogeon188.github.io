@@ -3,8 +3,12 @@
 
 @import "{{ site.theme }}";
 #header_wrap {
+  background-image: url(https://i.imgur.com/2iiU1cO.png);
+  background-size: 33.33%;
+}
+#main_content_wrap {
   background-image: url(https://i.imgur.com/hfkzAzc.png);
-  background-size: 60px;
+  background-size: 60px
 }
 a:hover {
   text-decoration: none;
