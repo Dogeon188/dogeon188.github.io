@@ -35,7 +35,7 @@ Try refresh the page and see if it works OWO
 [dc]: https://discord.gg/ZNYMdKK "My Discord Server"
 [pmc]: https://www.planetminecraft.com/member/dogeon188/ "Planet Minecraft"
 
-## Blog Posts
+## Blog Posts / Works
 
 <div id="blogs"></div>
 
