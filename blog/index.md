@@ -4,6 +4,6 @@ customjs:
 ---
 # Blogs & Works
 
-Here will be a full list of my blog posts (probably).
+Here will be a full list of my blog posts.
 
 <div id="blogs"></div>
