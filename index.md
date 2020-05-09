@@ -19,7 +19,7 @@ Try refresh the page and see if it works OWO
 </div>
 
 
-<a href="/yt/videos/" title="All of my videos (probably)">
+<a href="/yt/videos" title="All of my videos (probably)">
   <button class="button">View More</button>
 </a>
 
