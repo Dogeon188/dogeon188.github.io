@@ -23,6 +23,14 @@ Try refresh the page and see if it works OWO
   <button class="button">View More</button>
 </a>
 
+## Blogs & Works
+
+<div id="blogs"></div>
+
+<a href="/blog/" title="Blogs & Works">
+  <button class="button">View More</button>
+</a>
+
 ## Social Media
 
 [![Youtube Channel](/img/links/youtube.png)][yt]
@@ -34,14 +42,6 @@ Try refresh the page and see if it works OWO
 [twitter]: https://twitter.com/dogeon188 "My Twitter"
 [dc]: https://discord.gg/ZNYMdKK "My Discord Server"
 [pmc]: https://www.planetminecraft.com/member/dogeon188/ "Planet Minecraft"
-
-## Blog Posts & Works
-
-<div id="blogs"></div>
-
-<a href="/blog/" title="Blogs & Works">
-  <button class="button">View More</button>
-</a>
 
 ## Developement Stuffs
 
