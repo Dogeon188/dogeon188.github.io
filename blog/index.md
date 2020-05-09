@@ -1,6 +1,6 @@
 ---
 customjs:
-- /script/blog.js
+- /scripts/blog.js
 ---
 # Blogs
 
