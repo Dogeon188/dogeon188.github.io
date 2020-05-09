@@ -37,7 +37,9 @@ Try refresh the page and see if it works OWO
 
 ## Blog Posts
 
-<a href="/blog/" title="All of my videos (probably)">
+<div id="blogs"></div>
+
+<a href="/blog/" title="Blog Posts">
   <button class="button">View More</button>
 </a>
 
