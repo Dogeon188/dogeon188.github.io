@@ -2,6 +2,10 @@
 ---
 
 @import "{{ site.theme }}";
+body {
+  background-image: url(https://i.imgur.com/2iiU1cO.png);
+  background-size: 33.33%;
+}
 #header_wrap {
   background-image: url(https://i.imgur.com/2iiU1cO.png);
   background-size: 33.33%;
