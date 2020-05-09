@@ -24,3 +24,11 @@ a:hover {
   padding: 6px;
   cursor: pointer;
 }
+.blog-post {
+  background-color: #f8f8f8;
+  color: #000000;
+  width: calc(100% - 12px);
+  margin: 20px 6px;
+  padding: 10px;
+  border-radius: 10px;
+}
