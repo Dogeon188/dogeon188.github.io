@@ -1,17 +1,17 @@
 l = "https://spreadsheets.google.com/feeds/cells/12kGrnf4m7rVOB3G-QDAU8UfhMSkSbxzEdLsOm7Pcm4E/1/public/values?alt=json";
 
-String.prototype.f = function() {
-  var s = this, i = arguments.length;
-  while (i--) {s = s.replace(new RegExp('\\{' + i + '\\}', 'gm'), arguments[i]);}
-  return s;
-};
+// String.prototype.f = function() {
+//   var s = this, i = arguments.length;
+//   while (i--) {s = s.replace(new RegExp('\\{' + i + '\\}', 'gm'), arguments[i]);}
+//   return s;
+// };
 
-function G(u) {
-  r = new XMLHttpRequest();
-  r.open("GET", u, false);
-  r.send(null);
-  return r.responseText;
-}
+// function G(u) {
+//   r = new XMLHttpRequest();
+//   r.open("GET", u, false);
+//   r.send(null);
+//   return r.responseText;
+// }
 
 c = t => document.createElement(t);
 
