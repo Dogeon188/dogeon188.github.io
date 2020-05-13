@@ -33,10 +33,10 @@ Try refresh the page and see if it works OWO
 
 ## Social Media
 
-[![Youtube Channel](/img/links/youtube.png)][yt]
-[![Twitter](/img/links/twitter.png)][twitter]
-[![Discord](/img/links/discord.png)][dc]
-[![Planet Minecraft](/img/links/pmc.png)][pmc]
+[![Youtube Channel](https://i.imgur.com/NkWQYR8.png)][yt]
+[![Twitter](https://i.imgur.com/ZNiIT8k.png)][twitter]
+[![Discord](https://i.imgur.com/8wbsW8G.png)][dc]
+[![Planet Minecraft](https://i.imgur.com/AiAbmHG.png)][pmc]
 
 [yt]: https://www.youtube.com/channel/UCapFOd5gDDMNszKmVPKo9JQ "My Youtube Channel"
 [twitter]: https://twitter.com/dogeon188 "My Twitter"
