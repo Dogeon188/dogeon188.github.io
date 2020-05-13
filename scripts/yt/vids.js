@@ -1,18 +1,5 @@
 l = "https://spreadsheets.google.com/feeds/cells/1EAGFi2FniYnXfFhzBPYHRCYKfYdhKvtShUYSOAbzUvw/1/public/values?alt=json"
 
-// String.prototype.f = function() {
-//   var s = this, i = arguments.length;
-//   while (i--) {s = s.replace(new RegExp('\\{' + i + '\\}', 'gm'), arguments[i]);}
-//   return s;
-// };
-
-// function G(u) {
-//   var r = new XMLHttpRequest();
-//   r.open("GET", u, false);
-//   r.send(null);
-//   return r.responseText;
-// }
-
 var d = document.getElementById("videos");
 d.innerHTML = "";
 var j = JSON.parse(G(l)).feed.entry;
