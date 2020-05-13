@@ -2,18 +2,18 @@ l = "https://spreadsheets.google.com/feeds/cells/{0}/1/public/values?alt=json"
 l1 = "1EAGFi2FniYnXfFhzBPYHRCYKfYdhKvtShUYSOAbzUvw"
 l2 = "12kGrnf4m7rVOB3G-QDAU8UfhMSkSbxzEdLsOm7Pcm4E"
 
-String.prototype.f = function() {
-  var s = this, i = arguments.length;
-  while (i--) {s = s.replace(new RegExp('\\{' + i + '\\}', 'gm'), arguments[i]);}
-  return s;
-};
+// String.prototype.f = function() {
+//   var s = this, i = arguments.length;
+//   while (i--) {s = s.replace(new RegExp('\\{' + i + '\\}', 'gm'), arguments[i]);}
+//   return s;
+// };
 
-function G(u) {
-  r = new XMLHttpRequest();
-  r.open("GET", u, false);
-  r.send(null);
-  return r.responseText;
-}
+// function G(u) {
+//   r = new XMLHttpRequest();
+//   r.open("GET", u, false);
+//   r.send(null);
+//   return r.responseText;
+// }
 
 const ce = t => document.createElement(t);
 
