@@ -6,26 +6,26 @@ I made a simple java app to make it easier to create a data pack structure. This
 
 Just to make it clear, this is my first Java app, like it might not be too useful for now, and there will be lots of bugs. But I hope to add some more functions in the future as long as I can, also makking it better to use.
 
-1. Since I'm from Taiwan, and my native language is Chinese, the default language will be, well, Chinese. But you can go to "偏好設定>語言" to change it to English. Also there may be some more supported languages in the future.  
+Since I'm from Taiwan, and my native language is Chinese, the default language will be, well, Chinese. But you can go to "偏好設定>語言" to change it to English. Also there may be some more supported languages in the future.  
 BTW the current way I'm using to change language is not the best way to do it, if you have any opinions on it please leave it on the GitHub page\!
 
 ![](https://i.imgur.com/V5nLODI.png)
 Uh don't mind the super secret settings.
 
-2. In the main UI, there are currently 4 options(?) you can use.
+In the main UI, there are currently 4 options(?) you can use.
 
-> 1. **Datapack Name**: The datapack folder's name.
-> 2. **Description**: This will show when you type in the `/datapack list` command and hover on your pack name.
-> 3. **Using JSON component**: This will let the program generate description using JSON text format. Essentially this allows some text decorations, for more instructions, you can see [this article on Minecraft Wiki](https://minecraft.gamepedia.com/Raw_JSON_text_format).
-> 4. **Generate Datapack**: After filling in the needed informations, you can press this button to export the pack.
+1. **Datapack Name**: The datapack folder's name.
+2. **Description**: This will show when you type in the `/datapack list` command and hover on your pack name.
+3. **Using JSON component**: This will let the program generate description using JSON text format. Essentially this allows some text decorations, for more instructions, you can see [this article on Minecraft Wiki](https://minecraft.gamepedia.com/Raw_JSON_text_format).
+4. **Generate Datapack**: After filling in the needed informations, you can press this button to export the pack.
 
 ![](https://i.imgur.com/KPEgVtE.png)
 
-3. When you click the **Generate Pack** button, a file chooser window will pop out. You should choose the folder where you want the pack to be, and just click the Save button or something, then theh program will automatically generate a datapack for you.
+When you click the **Generate Pack** button, a file chooser window will pop out. You should choose the folder where you want the pack to be, and just click the Save button or something, then theh program will automatically generate a datapack for you.
 
 ![](https://i.imgur.com/Kd64GFf.png)
 
-4. You can find your pack with all the things needed for it to be a valid datapack, then you can use it as you wanted to now\!
+You can find your pack with all the things needed for it to be a valid datapack, then you can use it as you wanted to now\!
 
 ![](https://i.imgur.com/S6EA8SJ.png)
 
