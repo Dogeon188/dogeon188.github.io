@@ -9,8 +9,8 @@ for (o of j) {
   if (i.slice(0,2) == "//") {continue; }
   // t = document.createElement("IMG");
   // a = document.createElement("A");
-  t = ce("IMG");
-  a = ce("A");
+  t = $ce("IMG");
+  a = $ce("A");
   t.setAttribute("src", "https://img.youtube.com/vi/{0}/mqdefault.jpg".f(i));
   t.setAttribute("class", "video-thumbnail");
   a.setAttribute("href", "https://youtu.be/{0}".f(i));
