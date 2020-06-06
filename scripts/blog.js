@@ -1,8 +1,5 @@
 l = "https://spreadsheets.google.com/feeds/cells/12kGrnf4m7rVOB3G-QDAU8UfhMSkSbxzEdLsOm7Pcm4E/1/public/values?alt=json";
 
-// c = t => document.createElement(t);
-// ac = (p,c) => p.appendChild(c);
-
 d = document.getElementById("blogs");
 j = JSON.parse(G(l)).feed.entry;
 d.innerHTML = "";
