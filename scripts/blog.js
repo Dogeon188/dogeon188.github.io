@@ -1,6 +1,6 @@
 l = "https://spreadsheets.google.com/feeds/cells/12kGrnf4m7rVOB3G-QDAU8UfhMSkSbxzEdLsOm7Pcm4E/1/public/values?alt=json";
 
-d = document.getElementById("blogs");
+d = $$id("blogs");
 j = JSON.parse(G(l)).feed.entry;
 d.innerHTML = "";
 
@@ -20,7 +20,7 @@ for (o of j) {
       d.lastChild.setAttribute("href", i.$t);
       break;
     case '3':
-      $ac(d.lastChild.firstChild,document.createTextNode(i.$t));
+      $ac(d.lastChild.firstChild,$ct(i.$t));
       break;
   }
 }

@@ -13,4 +13,5 @@ function G(u) {
 
 $ce = t => document.createElement(t);
 $ac = (p,c) => p.appendChild(c);
+$ct = t => document.createTextNode(t);
 $$id = i => document.getElementById(i);

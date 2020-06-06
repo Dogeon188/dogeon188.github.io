@@ -1,6 +1,6 @@
 l = "https://spreadsheets.google.com/feeds/cells/1EAGFi2FniYnXfFhzBPYHRCYKfYdhKvtShUYSOAbzUvw/1/public/values?alt=json"
 
-var d = document.getElementById("videos");
+var d = $$id("videos");
 d.innerHTML = "";
 var j = JSON.parse(G(l)).feed.entry;
 
