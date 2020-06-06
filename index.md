@@ -11,6 +11,7 @@ customjs:
 Hi there, welcome to my website\!  
 Here I may post something like my personal blog, and also some of my work.  
 I'll try my best to make the place look good.
+Recently have so many assignments to do, too busy to make progress on those survival series or the MCE thing.
 
 ## Recent Videos
 
