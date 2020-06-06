@@ -9,12 +9,12 @@ And I'll post my progress here I think. Like having some screenshot for me worki
 
 Well anyways stay tuned for the updates!
 
-[seth]: https://www.youtube.com/watch?v=Frj_pYV3wX8 "SethBling's Work on Minecraft Earth in Minecraft"
+[seth]: https://youtu.be/Frj_pYV3wX8 "SethBling's Work on Minecraft Earth in Minecraft"
 
 ## Progress
 
 <details open>
-  <summary><strong>2020/0515/12:00 GMT</strong></summary>
+  <summary><strong>2020/05/15 12:00</strong></summary>
   Done the tappable models. Actually it seemed to be the easiest thing I have to do. Currently working on tappable spawning mechanics, while I met somoe problems...
   <img src="https://i.imgur.com/LSvXIuW.jpg?1">
 </details>
