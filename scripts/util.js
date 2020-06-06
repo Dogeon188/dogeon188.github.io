@@ -10,3 +10,6 @@ function G(u) {
   r.send(null);
   return r.responseText;
 }
+
+$ce = t => document.createElement(t);
+$ac = (p,c) => p.appendChild(c);
