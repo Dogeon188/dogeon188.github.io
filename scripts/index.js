@@ -2,7 +2,8 @@ l = "https://spreadsheets.google.com/feeds/cells/{0}/1/public/values?alt=json"
 l1 = "1EAGFi2FniYnXfFhzBPYHRCYKfYdhKvtShUYSOAbzUvw"
 l2 = "12kGrnf4m7rVOB3G-QDAU8UfhMSkSbxzEdLsOm7Pcm4E"
 
-d = document.getElementById("vids");
+// d = document.getElementById("vids");
+d = $$id("vids");
 j = JSON.parse(G(l.f(l1))).feed.entry;
 c = 0;
 d.innerHTML = "";

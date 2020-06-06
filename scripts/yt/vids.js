@@ -7,8 +7,6 @@ var j = JSON.parse(G(l)).feed.entry;
 for (o of j) {
   i = o.gs$cell.$t;
   if (i.slice(0,2) == "//") {continue; }
-  // t = document.createElement("IMG");
-  // a = document.createElement("A");
   t = $ce("IMG");
   a = $ce("A");
   t.setAttribute("src", "https://img.youtube.com/vi/{0}/mqdefault.jpg".f(i));

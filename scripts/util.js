@@ -13,3 +13,4 @@ function G(u) {
 
 $ce = t => document.createElement(t);
 $ac = (p,c) => p.appendChild(c);
+$$id = i => document.getElementById(i);
