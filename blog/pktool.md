@@ -14,7 +14,7 @@ In the main UI, there are 6 fields you can use.
 2. **Description**: This will show when you type in the `/datapack list` command and hover on your pack name.
 3. **Using JSON component**: This will let the program generate description using JSON text format, allowing some text decorations. For more instructions, you can see [this article on Minecraft Wiki](https://minecraft.gamepedia.com/Raw_JSON_text_format).
 4. **Generate "minecraft" namespace**: Enabling this will let the app generate a `<packname>/data/minecraft` folder, where you put in some data and you can overwrite the vanilla datapack.
-5. **Generate #tick & #load function tag**: Enabling this will generate a `tick.json` and a `load.json` file under the `<packname>/data/minecraft/tags/functions` folder. One will be loaded in Minecraft game as `#minecraft:tick`, which the contained function will be executed every game tick, and `#minecraft:load`, which the contained functions will be executed once you load or reload the game.
+5. **Generate #tick & #load function tag**: Enabling this will generate a `tick.json` and a `load.json` file under the `data/minecraft/tags/functions` folder. One will be loaded in Minecraft game as `#minecraft:tick`, which the contained function will be executed every game tick, and `#minecraft:load`, which the contained functions will be executed once you load or reload the game.
 6. **Generate Datapack**: After filling in the needed informations, you can press this button to export the pack.
 
 When you click the **Generate Pack** button, a file chooser window will pop out. You should choose the folder where you want the pack to be, and just click the Save button or something, then the program will automatically generate a datapack for you.
