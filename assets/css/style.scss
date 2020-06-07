@@ -10,19 +10,22 @@ body {
 #header_wrap, #footer_wrap {
   background: none;
 }
-/*#main_content_wrap {
-  background-image: url(https://i.imgur.com/fWEhjRC.png);
-  background-size: 60px
-}*/
 a:hover {
   text-decoration: none;
   opacity: 0.8;
+}
+#main_content img {
+  max-width:400px;
+  margin:auto;
+  display:block;
+  width:90%;
 }
 #project_title:hover {
   opacity: 0.8;
 }
 .video-thumbnail {
-  margin: 2px; width: calc(50% - 16px);
+  margin: 2px;
+  width: calc(50% - 16px);
 }
 .button {
   width: calc(100% - 12px);
