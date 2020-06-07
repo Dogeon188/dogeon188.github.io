@@ -22,9 +22,9 @@ Try refresh the page and see if it works OWO
 </div>
 
 
-<a href="/yt/videos" title="All of my videos (probably)">
-  <button class="button">View More</button>
-</a>
+<!-- <a href="/yt/videos" title="All of my videos (probably)"> -->
+<button onclick="location.href='/yt/videos'" class="button" title="All of my videos (probably)">View More</button>
+<!-- </a> -->
 
 ## Blogs & Works
 
