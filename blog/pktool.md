@@ -8,7 +8,7 @@ or just pull it and make a better one (´\_ゝ\`)
 
 In the main UI, there are 6 fields you can use.
 
-<img alt="" src="https://i.imgur.com/cNmH0Nr.png" style="max-width:400px;margin:auto;display:block;width:90%;">
+<img alt="" src="https://i.imgur.com/cNmH0Nr.png"  class="content-img">
 
 1. **Datapack Name**: The datapack folder's name.
 2. **Description**: This will show when you type in the `/datapack list` command and hover on your pack name.
@@ -19,13 +19,13 @@ In the main UI, there are 6 fields you can use.
 
 When you click the **Generate Pack** button, a file chooser window will pop out. You should choose the folder where you want the pack to be, and just click the Save button or something, then the program will automatically generate a datapack for you.
 
-<img alt="" src="https://i.imgur.com/Kd64GFf.png" style="max-width:400px;margin:auto;display:block;width:90%;">
+<img alt="" src="https://i.imgur.com/Kd64GFf.png"  class="content-img">
 
 And I actually had some problem dealing with the file chooser, since the path is kinda not working as I expected. Such as `datapacks/<packname>` becoming `datapacks/datapacks/<packname>`. If you know the way to fix this please contact me, or else, just please bear with it I think.
 
 You can find your pack with all the things needed for it to be a valid datapack, then you can use it as you wanted to now\!
 
-<img alt="" src="https://i.imgur.com/S6EA8SJ.png" style="max-width:400px;margin:auto;display:block;width:90%;">
+<img alt="" src="https://i.imgur.com/S6EA8SJ.png"  class="content-img">
 
 ## Download
 **WARN:** The app is made by a noobie programer, so there must be plenty of bugs.  
