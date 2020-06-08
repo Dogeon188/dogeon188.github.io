@@ -53,13 +53,12 @@ Try refresh the page and see if it works OWO
   d.empty();
   for (o of j) {
     if (c >= 4) break;
-    i = o.gs$cell.$t;
-    if (i.slice(0,2) == "//") continue;
+    i = o.gs$cell.$t.filter(v => v.gs$cell.$t.slice(0,2) != '//');
     d.append($(`<a href="https://youtu.be/${i}"><img class="video-thumbnail" src="https://img.youtube.com/vi/${i}/mqdefault.jpg"></a>`));
     c++;
   }
   d = $("#blogs");
-  j = JSON.parse(G(l.f(l2))).feed.entry;
+  j = JSON.parse(G(l.f(l2))).feed.entry.filter(v => v.gs$cell.$t.slice(0,2) != '//');
   c = 0;
   d.empty();
   for (o of j) {
