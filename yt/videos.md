@@ -13,6 +13,8 @@ Try refresh the page and see if it works OWO
 
 <button onclick="moreVid()">Load More</button>
 
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
 <script>
   l = "https://spreadsheets.google.com/feeds/cells/1EAGFi2FniYnXfFhzBPYHRCYKfYdhKvtShUYSOAbzUvw/1/public/values?alt=json";
   d = $("#videos");
