@@ -48,12 +48,12 @@ Try refresh the page and see if it works OWO
   l1 = "1EAGFi2FniYnXfFhzBPYHRCYKfYdhKvtShUYSOAbzUvw"
   l2 = "12kGrnf4m7rVOB3G-QDAU8UfhMSkSbxzEdLsOm7Pcm4E"
   d = $("#vids");
-  j = JSON.parse(G(l.f(l1))).feed.entry;
+  j = JSON.parse(G(l.f(l1))).feed.entry.filter(v => v.gs$cell.$t.slice(0,2) != '//');
   c = 0;
   d.empty();
   for (o of j) {
     if (c >= 4) break;
-    i = o.gs$cell.$t.filter(v => v.gs$cell.$t.slice(0,2) != '//');
+    i = o.gs$cell.$t;
     d.append($(`<a href="https://youtu.be/${i}"><img class="video-thumbnail" src="https://img.youtube.com/vi/${i}/mqdefault.jpg"></a>`));
     c++;
   }
