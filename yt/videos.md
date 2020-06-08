@@ -18,7 +18,7 @@ Try refresh the page and see if it works OWO
   j = JSON.parse(G(l)).feed.entry;
   for (o of j) {
     i = o.gs$cell.$t;
-    if (i.slice(0,2) == "//") {continue; }
+    if (i.slice(0,2) == "//") continue;
     d.append($(`<a href="https://youtu.be/${i}"><img class="video-thumbnail" src="https://img.youtube.com/vi/${i}/mqdefault.jpg"></img></a>`));
   }
 </script>
