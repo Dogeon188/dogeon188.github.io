@@ -1,3 +1,8 @@
+---
+customcss:
+- /style/loot.css
+---
+
 # Minecraft Loot Table Generator
 
 This is a tool that let you easily generate a loot table file for your Minecraft datapack.
