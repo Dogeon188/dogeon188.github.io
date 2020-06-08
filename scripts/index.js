@@ -2,7 +2,7 @@ l = "https://spreadsheets.google.com/feeds/cells/{0}/1/public/values?alt=json"
 l1 = "1EAGFi2FniYnXfFhzBPYHRCYKfYdhKvtShUYSOAbzUvw"
 l2 = "12kGrnf4m7rVOB3G-QDAU8UfhMSkSbxzEdLsOm7Pcm4E"
 
-d = $$id("vids");
+d = $("#vids");
 j = JSON.parse(G(l.f(l1))).feed.entry;
 c = 0;
 d.innerHTML = "";
@@ -13,14 +13,14 @@ for (o of j) {
   if (i.slice(0,2) == "//") continue;
   t = $ce("IMG");
   a = $ce("A");
-  t.setAttribute("src", "https://img.youtube.com/vi/{0}/mqdefault.jpg".f(i));
-  t.setAttribute("class", "video-thumbnail");
-  a.setAttribute("href", "https://youtu.be/{0}".f(i));
+  t.src = "https://img.youtube.com/vi/{0}/mqdefault.jpg".f(i);
+  t.class = "video-thumbnail";
+  a.href = "https://youtu.be/{0}".f(i);
   $ac(a,t); $ac(d,a);
   c++;
 }
 
-d = $$id("blogs");
+d = $("#blogs");
 j = JSON.parse(G(l.f(l2))).feed.entry;
 c = 0;
 d.innerHTML = "";
@@ -33,13 +33,13 @@ for (o of j) {
     case '1':
       ta = $ce("A");
       tdiv = $ce("DIV");
-      tdiv.setAttribute("class", "blog-post");
+      tdiv.class = "blog-post";
       th = $ce("H4");
       th.innerHTML = i.$t;
       $ac(tdiv,th); $ac(ta,tdiv); $ac(d,ta);
       break;
     case '2':
-      d.lastChild.setAttribute("href", i.$t);
+      d.lastChild.href = i.$t;
       break;
     case '3':
       tc = $ct(i.$t);
