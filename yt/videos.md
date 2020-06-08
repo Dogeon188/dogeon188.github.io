@@ -1,7 +1,6 @@
 ---
 title: Videos
 customjs:
- - /scripts/util.js
  - /scripts/yt/vids.js
 ---
 
@@ -13,3 +12,5 @@ Here should be all of my available videos.
 Oops, there seems to be some problem loading the videos :(
 Try refresh the page and see if it works OWO
 </div>
+
+<script src="/scripts/util.js"></script>
