@@ -11,18 +11,22 @@ Oops, there seems to be some problem loading the videos :(
 Try refresh the page and see if it works OWO
 </div>
 
-<button onclick="moreVid()">Load More</button>
-
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<button onclick="moreVid(8)">Load More</button>
 
 <script>
   l = "https://spreadsheets.google.com/feeds/cells/1EAGFi2FniYnXfFhzBPYHRCYKfYdhKvtShUYSOAbzUvw/1/public/values?alt=json";
   d = $("#videos");
   d.empty();
-  j = JSON.parse(G(l)).feed.entry;
-  for (o of j) {
-    i = o.gs$cell.$t;
-    if (i.slice(0,2) == "//") continue;
-    d.append($(`<a href="https://youtu.be/${i}"><img class="video-thumbnail" src="https://img.youtube.com/vi/${i}/mqdefault.jpg"></img></a>`));
+  j = JSON.parse(G(l)).feed.entry.filter(v => v.gs$cell.$t.slice(0,2) != '//');
+  console.log(j);
+  l = 0;
+  function moreVid(s) {
+    c = 0;
+    for (o of j.slice(l,l+s)) {
+      i = o.gs$cell.$t;
+      d.append($(`<a href="https://youtu.be/${i}"><img class="video-thumbnail" src="https://img.youtube.com/vi/${i}/mqdefault.jpg"></img></a>`));
+      c++; l++;
+    }
   }
+  moreVid(8);
 </script>
