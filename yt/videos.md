@@ -11,7 +11,7 @@ Oops, there seems to be some problem loading the videos :(
 Try refresh the page and see if it works OWO
 </div>
 
-<button onclick="moreVid(8)">Load More</button>
+<button class="button" onclick="moreVid(8)">Load More</button>
 
 <script>
   l = "https://spreadsheets.google.com/feeds/cells/1EAGFi2FniYnXfFhzBPYHRCYKfYdhKvtShUYSOAbzUvw/1/public/values?alt=json";
