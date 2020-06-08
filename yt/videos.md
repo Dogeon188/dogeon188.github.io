@@ -1,7 +1,5 @@
 ---
 title: Videos
-customjs:
- - /scripts/yt/vids.js
 ---
 
 # My Videos
