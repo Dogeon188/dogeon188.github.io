@@ -7,7 +7,7 @@ Here will be a full list of my blog posts.
 <script>
   l = "https://spreadsheets.google.com/feeds/cells/12kGrnf4m7rVOB3G-QDAU8UfhMSkSbxzEdLsOm7Pcm4E/1/public/values?alt=json";
   d = $("#blogs");
-  j = JSON.parse(G(l)).feed.entry;
+  j = JSON.parse(G(l)).feed.entry.filter(v => v.gs$cell.$t.slice(0,2) != '//');
   d.empty();
   for (o of j) {
     i = o.gs$cell;
