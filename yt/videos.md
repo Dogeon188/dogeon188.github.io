@@ -18,7 +18,6 @@ Try refresh the page and see if it works OWO
   d = $("#videos");
   d.empty();
   j = JSON.parse(G(l)).feed.entry.filter(v => v.gs$cell.$t.slice(0,2) != '//');
-  console.log(j);
   l = 0;
   function moreVid(s) {
     c = 0;
@@ -27,7 +26,7 @@ Try refresh the page and see if it works OWO
       d.append($(`<a href="https://youtu.be/${i}"><img class="video-thumbnail" src="https://img.youtube.com/vi/${i}/mqdefault.jpg"></img></a>`));
       c++; l++;
     }
-    if (l > j.length) $("#load-more").remove()
+    if (l >= j.length) $("#load-more").remove()
   }
   moreVid(8);
 </script>
