@@ -18,13 +18,13 @@ Oops, there seems to be some problem loading the videos :( <br>
 Try refresh the page and see if it works OWO
 </div>
 
-<button onclick="location.href='/yt/videos'" class="button" title="All of my videos (probably)">View More</button>
+<button onclick="location.href='yt/videos'" class="button" title="All of my videos (probably)">View More</button>
 
 ## Blogs & Works
 
 <div id="blogs"></div>
 
-<button title="Blogs & Works" onclick="location.href='/blog/'" class="button">View More</button>
+<button title="Blogs & Works" onclick="location.href='blog/'" class="button">View More</button>
 
 ## Social Media
 
