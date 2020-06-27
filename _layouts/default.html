@@ -12,7 +12,12 @@
     <link rel="shortcut icon" type="image/png" href="https://yt3.ggpht.com/-r4KYFZufWvc/AAAAAAAAAAI/AAAAAAAAAAA/o-bSgzWQK2o/s108-c-k-c0x00ffffff-no-rj-mo/photo.jpg"/>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="/scripts/util.js"></script>
-    {% seo %}
+    {% case page.lang %}
+      {% when "zh-tw" %}
+        <title>{{ page.title }} | {{ site.title.zh-tw }}</title>
+      {% else %}
+        <title>{{ page.title }} | {{ site.title.en-us }}</title>
+    {% endcase %}
   </head>
   <body>
     <!-- HEADER -->
