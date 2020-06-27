@@ -15,7 +15,7 @@ Well anyways stay tuned for the updates!
 
 <details open>
   <summary><strong>2020/05/15 12:00</strong></summary>
-  Done the tappable models. Actually it seemed to be the easiest thing I have to do. Currently working on tappable spawning mechanics, while I met somoe problems...
+  Done the tappable models. Actually it seemed to be the easiest thing I have to do. Currently working on tappable spawning mechanics, while I met some problems...
   <img class="content-img" src="https://i.imgur.com/LSvXIuW.jpg?1">
 </details>
 
