@@ -17,13 +17,13 @@ lang: zh-tw
     i = o.gs$cell;
     if (i.row == '1') continue;
     switch (i.col) {
-      case '1':
+      case '2':
       d.append($(`<a><div class="blog-post"><h4>${i.$t}</h4></div></a>`));
       break;
-      case '2':
-      d.children().last().attr('href', i.$t);
-      break;
       case '3':
+      d.children().last().attr('href', '/zh' + i.$t);
+      break;
+      case '5':
       d.children().last().children().first().append(i.$t);
       break;
     }
