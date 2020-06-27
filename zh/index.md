@@ -20,13 +20,13 @@ title: 首頁
 試試看重新載入吧
 </div>
 
-<button onclick="location.href='/zh/yt/videos'" class="button" title="All of my videos (probably)">更多影片</button>
+<button onclick="location.href='yt/videos'" class="button" title="All of my videos (probably)">更多影片</button>
 
 ## 文章&作品們
 
 <div id="blogs"></div>
 
-<button title="Blogs & Works" onclick="location.href='/zh/blog/'" class="button">看更多</button>
+<button title="Blogs & Works" onclick="location.href='blog/'" class="button">看更多</button>
 
 ## 社群媒體
 
