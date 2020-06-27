@@ -62,7 +62,7 @@ Try refresh the page and see if it works OWO
   c = 0;
   d.empty();
   for (o of j) {
-    if (c >= 9) {break;}
+    if (c >= 15) {break;}
     i = o.gs$cell;
     if (i.row == '1') continue;
     switch (i.col) {
