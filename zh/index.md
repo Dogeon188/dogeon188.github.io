@@ -1,5 +1,5 @@
 ---
-lang: zh_tw
+lang: zh-tw
 title: 首頁
 ---
 
