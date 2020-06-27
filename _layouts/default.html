@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-
+<html lang="{{ page.lang | default: "en-US" }}">
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,23 +12,21 @@
     <link rel="shortcut icon" type="image/png" href="https://yt3.ggpht.com/-r4KYFZufWvc/AAAAAAAAAAI/AAAAAAAAAAA/o-bSgzWQK2o/s108-c-k-c0x00ffffff-no-rj-mo/photo.jpg"/>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="/scripts/util.js"></script>
-
-{% seo %}
+    {% seo %}
   </head>
-
   <body>
-
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
-        <header class="inner">
-          {% if site.github.is_project_page %}
-            <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
-          {% endif %}
-
-          <a href="/"><h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1></a>
-          <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-
-        </header>
+      <header class="inner">
+        {% case page.lang %}
+          {% when "zh-tw" %}
+            <a href="/"><h1 id="project_title">{{ site.title.zh_tw }}</h1></a>
+            <h2 id="project_tagline">{{ site.description.zh_tw }}</h2>
+          {% else %}
+            <a href="/"><h1 id="project_title">{{ site.title.en_us }}</h1></a>
+            <h2 id="project_tagline">{{ site.description.en_us }}</h2>
+        {% endcase %}
+      </header>
     </div>
 
     <!-- MAIN CONTENT -->
@@ -42,9 +39,6 @@
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        {% if site.github.is_project_page %}
-        <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
         <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>

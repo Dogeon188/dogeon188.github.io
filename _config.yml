@@ -1,3 +1,7 @@
 theme: jekyll-theme-slate
-title: Dogeon's Nest
-description: Blog of a normal high school student.
+title: 
+  en_us: Dogeon's Nest
+  zh_tw: 鴿的鴿巢
+description:
+  en_us: Blog of a normal high school student.
+  zh_tw: 小小高中生的小小天地
