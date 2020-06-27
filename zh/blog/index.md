@@ -1,5 +1,5 @@
 ---
-lang: zh_tw
+lang: zh-tw
 ---
 
 # 文章&作品們
