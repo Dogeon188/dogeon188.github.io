@@ -1,3 +1,7 @@
+---
+lang: zh-tw
+---
+
 # Minecraft地球：Java版
 
 痾總而言之這個想法就突然出現在我腦海裡了。可能你們看過 SethBling 做過[類似的事情][seth]，不過那個畢竟是MCE發布之前的東西了。
