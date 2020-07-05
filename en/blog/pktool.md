@@ -6,7 +6,7 @@ or just pull it and make a better one (´\_ゝ\`)
 
 ## How to Use
 
-In the main UI, there are 6 fields you can use.
+In the main UI, there are 5 fields you can use + a button for generating the datapack.
 
 <img alt="" src="https://i.imgur.com/cNmH0Nr.png"  class="content-img">
 

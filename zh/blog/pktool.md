@@ -10,7 +10,7 @@ title: 資料包產生器
 
 ## 使用方式
 
-在應用程式的主介面中一共有6個可以調整的參數。
+在應用程式的主介面中一共有5個可以調整的參數+**「生成資料包」**的按鈕。
 
 <img alt="" src="https://i.imgur.com/cNmH0Nr.png"  class="content-img">
 
