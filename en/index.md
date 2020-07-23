@@ -30,11 +30,13 @@ Try refresh the page and see if it works OWO
 
 [![Youtube Channel](https://i.imgur.com/NkWQYR8.png)][yt]
 [![Twitter](https://i.imgur.com/ZNiIT8k.png)][twitter]
+[![Facebook](https://i.imgur.com/f7LkkZA.png)][fb]
 [![Discord](https://i.imgur.com/8wbsW8G.png)][dc]
 [![Planet Minecraft](https://i.imgur.com/AiAbmHG.png)][pmc]
 
 [yt]: https://www.youtube.com/channel/UCapFOd5gDDMNszKmVPKo9JQ "My Youtube Channel"
 [twitter]: https://twitter.com/dogeon188 "My Twitter"
+[fb]: https://www.facebook.com/dogeon.dogeon.52 "Facebook"
 [dc]: https://discord.gg/ZNYMdKK "My Discord Server"
 [pmc]: https://www.planetminecraft.com/member/dogeon188/ "Planet Minecraft"
 

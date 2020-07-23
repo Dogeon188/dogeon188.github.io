@@ -32,11 +32,13 @@ title: 首頁
 
 [![Youtube 頻道](https://i.imgur.com/NkWQYR8.png)][yt]
 [![Twitter](https://i.imgur.com/ZNiIT8k.png)][twitter]
+[![Facebook](https://i.imgur.com/f7LkkZA.png)][fb]
 [![Discord](https://i.imgur.com/8wbsW8G.png)][dc]
 [![Planet Minecraft](https://i.imgur.com/AiAbmHG.png)][pmc]
 
 [yt]: https://www.youtube.com/channel/UCapFOd5gDDMNszKmVPKo9JQ "YT頻道"
-[twitter]: https://twitter.com/dogeon188 "推特"
+[twitter]: https://twitter.com/dogeon188 "Twitter"
+[fb]: https://www.facebook.com/dogeon.dogeon.52 "Facebook"
 [dc]: https://discord.gg/ZNYMdKK "DC伺服器"
 [pmc]: https://www.planetminecraft.com/member/dogeon188/ "Planet Minecraft"
 
