@@ -1,3 +1,8 @@
+---
+lang: zh-tw
+title: 資源解密小幫手
+---
+
 # Minecraft Assets Unhasher
 
 **NOTE:** If you cannot open the jar file, consider usie the command in Command Prompt: `javaw -jar <the jar file>`
