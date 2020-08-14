@@ -1,6 +1,6 @@
 # Minecraft Assets Unhasher
 
-**NOTE:** If you cannot open the jar file, consider usie the command in Command Prompt: `javaw -jar <the jar file>`
+**NOTE:** If you cannot open the jar file, consider use the command in Command Prompt: `javaw -jar <the jar file>`
 
 **NOTE:** If this violates any sort of law or something, please contact me and I'll deal with it.
 
