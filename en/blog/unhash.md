@@ -4,7 +4,7 @@
 
 **NOTE:** If this violates any sort of law or something, please contact me and I'll deal with it.
 
-![](https://i.imgur.com/LMTX6aS.png)
+![](https://i.imgur.com/ZUPx9aY.png)
 
 **Select Minecraft Folder**
 

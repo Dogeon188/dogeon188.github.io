@@ -11,7 +11,7 @@ title: 資源解密小幫手
 
 ## 操作介面
 
-![](https://i.imgur.com/yUo7LAf.png)
+![](https://i.imgur.com/V8E2lYn.png)
 
 **選擇minecraft資料夾**
 
